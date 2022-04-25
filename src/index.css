@@ -1,13 +1,30 @@
-body {
+/* The Universal Selector is the * in CSS. Literally the asterisk character. It is essentially a type selector that matches any type. Type meaning an HTML tag like <div> , <body> , <button> , or literally any of the others. */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing:border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.rainToShine {
+  background-color: lightskyblue;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+.rainToShine.warm {
+  background-color: orange;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+main {
+  min-height: 100vh;
+
+  /* This will create the nive shader to the page will look better with images */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
 }
