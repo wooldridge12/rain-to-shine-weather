@@ -68,4 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # rain-to-shine-weather
+<p>Rain To Shine is a weather app utilizing open weasther map api. This project was designed to help me learn more about api's and how to pull data.</p>
+<h1>Overlay of the app</h1>
+<p>Rain to Shine App is very simple. You type in a city at the top search bar and push enter. Then the weather will appear! If the weather is above 16°c, the background will appear as a warm background. If the weather is below 16°c, the background will appear as a cold background. Now, if you dont quite understand or use celsius often when reading temperature then no fear! Rain To Shine has a built in link to take you to a google celsius to fahrenheit converter.</p>
